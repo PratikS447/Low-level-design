@@ -1,16 +1,16 @@
-package org.example.LLD.AdderSubtractor;
+package org.example.LLD.AdderSubtractor.using_callable_executor;
 
 import java.util.concurrent.Callable;
 
-public class Adder implements Callable<Void> {
+public class Subtractor implements Callable<Void> {
     Count count;
-    Adder(Count count){
+    Subtractor(Count count){
         this.count = count;
     }
 
     public Void call() throws Exception{
         for (int i = 1; i <= 10000; i++){
-            count.val += i;
+            count.val -= i;
         }
         return null;
     }
