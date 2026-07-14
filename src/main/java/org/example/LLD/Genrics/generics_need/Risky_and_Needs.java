@@ -1,4 +1,4 @@
-package org.example.LLD.generics_need;
+package org.example.LLD.Genrics.generics_need;
 
 import java.util.ArrayList;
 import java.util.List;

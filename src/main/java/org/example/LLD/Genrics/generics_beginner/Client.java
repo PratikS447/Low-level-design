@@ -1,4 +1,4 @@
-package org.example.LLD.generics_beginner;
+package org.example.LLD.Genrics.generics_beginner;
 
 public class Client {
     public static void main(String[] args){
