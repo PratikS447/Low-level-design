@@ -1,4 +1,4 @@
-package org.example.LLD.AdderSubtractor.using_runnable_interface;
+package org.example.LLD.AdderSubtractor.using_runnable_interface_problem;
 
 public class Client {
     public static void main(String args[]){
