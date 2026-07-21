@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("=== Shopping Cart System Demo ===\n");
 
-        // ── 2. Add items from all three categories ─────────────────────────
+        // ── 2. MathOperation items from all three categories ─────────────────────────
         manager.addItemToCart(new Electronics("Laptop",        999.99, 1));
         manager.addItemToCart(new Electronics("Wireless Mouse",  29.99, 2));
         manager.addItemToCart(new Clothing("Winter Jacket",   89.99, 1));
