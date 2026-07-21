@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Client {
+public class With_Collection {
     public static void main(String args[]){
         List<String> fruits = Arrays.asList("Apple", "Banana", "Orange", "Mango");
         // Traditional approach
